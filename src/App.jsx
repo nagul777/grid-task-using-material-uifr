@@ -139,7 +139,7 @@ function App() {
                                                             </Box>
 
                                                             <Box className='flex justify-between gap-5'>
-                                                                  <Box className='bg-[#f8f4f0] p-4 flex gap-4 w-[50%] rounded-lg'>
+                                                                  <Box className='bg-[#f8f4f0] p-4 flex gap-4 items-center w-[50%] rounded-lg'>
                                                                               <Box>
                                                                                     <RequestQuoteOutlinedIcon sx={{color:'#277c78', fontSize:'40px'}}></RequestQuoteOutlinedIcon>
                                                                               </Box>
@@ -158,37 +158,37 @@ function App() {
                                                                  <Box className='w-[50%] grid grid-cols-2 gap-4'>
                                                                       <Box className='border-l-4 border-[#277c78] pl-3 rounded-[2px]'>
                                                                                 <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
-                                                                                    Expenses  
+                                                                                   Savings 
                                                                                     </Typography>
                                                                                     <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
-                                                                                          $1,700.50 
+                                                                                          $159 
                                                                                     </Typography>
                                                                       </Box>
 
-                                                                      <Box className='border-l-4 border-[#277c78] pl-3 rounded-[2px]'>
+                                                                      <Box className='border-l-4 border-[#696868] pl-3 rounded-[2px]'>
                                                                                 <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
-                                                                                    Expenses  
+                                                                                     Concert Ticket  
                                                                                     </Typography>
                                                                                     <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
-                                                                                          $1,700.50 
+                                                                                          $110 
                                                                                     </Typography>
                                                                       </Box>
 
-                                                                      <Box className='border-l-4 border-[#277c78] pl-3 rounded-[2px]'>
+                                                                      <Box className='border-l-4 border-[#82c9d7] pl-3 rounded-[2px]'>
                                                                                 <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
-                                                                                    Expenses  
+                                                                                    Gift 
                                                                                     </Typography>
                                                                                     <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
-                                                                                          $1,700.50 
+                                                                                          $40 
                                                                                     </Typography>
                                                                       </Box>
 
-                                                                      <Box className='border-l-4 border-[#277c78] pl-3 rounded-[2px]'>
+                                                                      <Box className='border-l-4 border-[#f2cdac] pl-3 rounded-[2px]'>
                                                                                 <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
-                                                                                    Expenses  
+                                                                                      New Laptop  
                                                                                     </Typography>
                                                                                     <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
-                                                                                          $1,700.50 
+                                                                                          $10
                                                                                     </Typography>
                                                                       </Box>
                                                                      
@@ -215,49 +215,52 @@ function App() {
                                                                   </SeeDetailsButton>                                                     
                                                       </Box>
 
-                                                      <Box className='flex gap-5 justify-evenly'>
-                                                      <Box>
-                                                      <img src="/assets/graph.jpeg" alt="" />
-                                                      </Box>
-                                                      <Box className='grid gap-4'>
-                                                                        <Box className='border-l-4 border-[#277c78] pl-3 rounded-[2px]'>
-                                                                              <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
-                                                                                    Expenses  
-                                                                                    </Typography>
-                                                                                    <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
-                                                                                          $1,700.50 
-                                                                                    </Typography>
-                                                                        </Box>
+                                                         <Box className='flex gap-5 justify-evenly'>
+                                                                  <Box>
+                                                                     <img src="/assets/graph.jpeg" alt="" />
+                                                                  </Box>
 
-                                                                        <Box className='border-l-4 border-[#277c78] pl-3 rounded-[2px]'>
-                                                                              <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
-                                                                                    Expenses  
-                                                                                    </Typography>
-                                                                                    <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
-                                                                                          $1,700.50 
-                                                                                    </Typography>
-                                                                        </Box>
+                                                                        <Box className='grid gap-4'>
 
-                                                                        <Box className='border-l-4 border-[#277c78] pl-3 rounded-[2px]'>
-                                                                              <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
-                                                                                    Expenses  
-                                                                                    </Typography>
-                                                                                    <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
-                                                                                          $1,700.50 
-                                                                                    </Typography>
-                                                                        </Box>
+                                                                                          <Box className='border-l-4 border-[#F2CDAC] pl-3 rounded-[2px]'>
+                                                                                                <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
+                                                                                                      Dining Out   
+                                                                                                      </Typography>
 
-                                                                        <Box className='border-l-4 border-[#277c78] pl-3 rounded-[2px]'>
-                                                                              <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
-                                                                                    Expenses  
-                                                                                    </Typography>
-                                                                                    <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
-                                                                                          $1,700.50 
-                                                                                    </Typography>
+                                                                                                      <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
+                                                                                                            $75
+                                                                                                      </Typography>
+                                                                                          </Box>
+
+                                                                                          <Box className='border-l-4 border-[#696868] pl-3 rounded-[2px]'>
+                                                                                                <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
+                                                                                                         Personal Care  
+                                                                                                      </Typography>
+                                                                                                      <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
+                                                                                                            $100
+                                                                                                      </Typography>
+                                                                                          </Box>
+
+                                                                                          <Box className='border-l-4 border-[#82C9D7] pl-3 rounded-[2px]'>
+                                                                                                <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
+                                                                                                      Bills 
+                                                                                                      </Typography>
+                                                                                                      <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
+                                                                                                            $750
+                                                                                                      </Typography>
+                                                                                          </Box>
+
+                                                                                          <Box className='border-l-4 border-[#277c78] pl-3 rounded-[2px]'>
+                                                                                                <Typography variant='subtitle1' sx={{fontSize:'12px', fontWeight:'400'}}>
+                                                                                                        Entertainment  
+                                                                                                      </Typography>
+                                                                                                      <Typography variant='subtitle1' sx={{fontSize:'14px', fontWeight:'900'}}>
+                                                                                                            $35 
+                                                                                                      </Typography>
+                                                                                          </Box>
+                                                                                    
                                                                         </Box>
-                                                                  
-                                                      </Box>
-                                                      </Box>
+                                                         </Box>
                                                </Box>                                         
 
                                          </Box>
