@@ -206,7 +206,7 @@ function App() {
                                                       <Box className='flex justify-between'>
 
                                                             <Typography sx={{fontSize:'20px', fontWeight:'700'}}>
-                                                            Pots
+                                                                 Budgets
                                                             </Typography>
 
                                                                   <SeeDetailsButton>
@@ -270,7 +270,7 @@ function App() {
                                                       <Box className='flex justify-between'>
 
                                                             <Typography sx={{fontSize:'20px', fontWeight:'700'}}>
-                                                            Pots
+                                                                Transactions
                                                             </Typography>
 
                                                                   <SeeDetailsButton>
@@ -283,8 +283,8 @@ function App() {
 
                                                                   <Box className="flex justify-between pb-5 border-b-2">
                                                                         <Box className="flex gap-[16px] justify-center items-center">
-                                                                              <Avatar alt="Remy Sharp" src="/assets/people.jpg" /> 
-                                                                              <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black' fontFamily="pulic-sans">
+                                                                              <Avatar alt="Remy Sharp" src="/assets/emma.svg" /> 
+                                                                              <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black'>
                                                                               Emma Richardson
                                                                               </Typography>
                                                                         </Box>
@@ -292,7 +292,7 @@ function App() {
                                                                         
                                                                         <Box>
                                                                               
-                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#277C78]' fontFamily="pulic-sans">
+                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#277C78]' >
                                                                               +$75.50
                                                                               </Typography>
 
@@ -306,21 +306,21 @@ function App() {
 
                                                                   <Box className="flex justify-between pb-5 border-b-2 pt-5">
                                                                         <Box className="flex gap-[16px] justify-center items-center">
-                                                                              <Avatar alt="Remy Sharp" src="/assets/people.jpg" /> 
-                                                                              <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black' fontFamily="pulic-sans">
-                                                                              Emma Richardson
+                                                                              <Avatar alt="Remy Sharp" src="/assets/savory.svg" /> 
+                                                                              <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black'>
+                                                                                  Savory Bites Bistro
                                                                               </Typography>
                                                                         </Box>
                                                                   
                                                                         
                                                                         <Box>
                                                                               
-                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#277C78]' fontFamily="pulic-sans">
-                                                                              +$75.50
+                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" >
+                                                                                +$55.50
                                                                               </Typography>
 
                                                                               <Typography variant="subtitle1" fontWeight="300" fontSize="12px" className='text-[#696868]' fontFamily="pulic-sans">
-                                                                              19 Aug 2024
+                                                                                 19 Aug 2024
                                                                               </Typography>
 
                                                                         </Box>
@@ -330,21 +330,21 @@ function App() {
 
                                                                   <Box className="flex justify-between pb-5 border-b-2 pt-5">
                                                                         <Box className="flex gap-[16px] justify-center items-center">
-                                                                              <Avatar alt="Remy Sharp" src="/assets/people.jpg" /> 
-                                                                              <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black' fontFamily="pulic-sans">
-                                                                              Emma Richardson
+                                                                              <Avatar alt="Remy Sharp" src="/assets/daniel.svg" /> 
+                                                                              <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black' >
+                                                                                 Daniel Carter
                                                                               </Typography>
                                                                         </Box>
                                                                   
                                                                         
                                                                         <Box>
                                                                               
-                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#277C78]' fontFamily="pulic-sans">
-                                                                              +$75.50
+                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" >
+                                                                              -$42.30 
                                                                               </Typography>
 
                                                                               <Typography variant="subtitle1" fontWeight="300" fontSize="12px" className='text-[#696868]' fontFamily="pulic-sans">
-                                                                              19 Aug 2024
+                                                                              18 Aug 2024
                                                                               </Typography>
 
                                                                         </Box>
@@ -354,21 +354,21 @@ function App() {
 
                                                                   <Box className="flex justify-between pb-5 pt-5 border-b-2">
                                                                         <Box className="flex gap-[16px] justify-center items-center">
-                                                                              <Avatar alt="Remy Sharp" src="/assets/people.jpg" /> 
-                                                                              <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black' fontFamily="pulic-sans">
-                                                                              Emma Richardson
+                                                                              <Avatar alt="Remy Sharp" src="/assets/sun.svg" /> 
+                                                                              <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black'>
+                                                                                  Sun Park
                                                                               </Typography>
                                                                         </Box>
                                                                   
                                                                         
                                                                         <Box>
                                                                               
-                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#277C78]' fontFamily="pulic-sans">
-                                                                              +$75.50
+                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#277C78]' >
+                                                                                +$120.00
                                                                               </Typography>
 
                                                                               <Typography variant="subtitle1" fontWeight="300" fontSize="12px" className='text-[#696868]' fontFamily="pulic-sans">
-                                                                              19 Aug 2024
+                                                                                17 Aug 2024
                                                                               </Typography>
 
                                                                         </Box>
@@ -379,21 +379,21 @@ function App() {
 
                                                                   <Box className="flex justify-between pb-5 pt-5 border-b-2">
                                                                         <Box className="flex gap-[16px] justify-center items-center">
-                                                                              <Avatar alt="Remy Sharp" src="/assets/people.jpg" /> 
-                                                                              <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black' fontFamily="pulic-sans">
-                                                                              Emma Richardson
-                                                                              </Typography>
+                                                                              <Avatar alt="Remy Sharp" src="/assets/urban.svg" /> 
+                                                                                    <Typography variant="subtitle1" fontWeight="700" fontSize="14px" className='text-black' >
+                                                                                    Urban Services Hub
+                                                                                    </Typography>
                                                                         </Box>
                                                                   
                                                                         
                                                                         <Box>
                                                                               
-                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#277C78]' fontFamily="pulic-sans">
-                                                                              +$75.50
+                                                                              <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" >
+                                                                                 +$65.00
                                                                               </Typography>
 
                                                                               <Typography variant="subtitle1" fontWeight="300" fontSize="12px" className='text-[#696868]' fontFamily="pulic-sans">
-                                                                              19 Aug 2024
+                                                                                 17 Aug 2024
                                                                               </Typography>
 
                                                                         </Box>
@@ -412,7 +412,7 @@ function App() {
                                                       <Box className='flex justify-between'>
 
                                                             <Typography sx={{fontSize:'20px', fontWeight:'700'}}>
-                                                               Pots
+                                                                Recurring Bills
                                                             </Typography>
 
                                                                   <SeeDetailsButton>
@@ -422,7 +422,7 @@ function App() {
                                                             </Box>
 
                                                             <Box className='flex flex-col gap-3'>
-                                                                  <Box className="flex justify-between bg-[#F8F4F0] p-[20px_16px] rounded-[8px] border-l-4 border-[#82C9D7]">
+                                                                  <Box className="flex justify-between bg-[#F8F4F0] p-[20px_16px] rounded-[8px] border-l-4 border-[#277C78]">
                                                                         <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#696868]' >
                                                                         Paid Bills
                                                                         </Typography>
@@ -432,23 +432,23 @@ function App() {
                                                                         </Typography>
                                                                    </Box>
 
-                                                                   <Box className="flex justify-between bg-[#F8F4F0] p-[20px_16px] rounded-[8px] border-l-4 border-[#82C9D7]">
+                                                                   <Box className="flex justify-between bg-[#F8F4F0] p-[20px_16px] rounded-[8px] border-l-4 border-[#F2CDAC]">
                                                                         <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#696868]' >
-                                                                        Paid Bills
+                                                                            Total Upcoming
                                                                         </Typography>
 
                                                                         <Typography variant="" fontWeight="700" fontSize="14px" className='text-black' >
-                                                                        $190.00
+                                                                           $194.98
                                                                         </Typography>
                                                                    </Box>
 
                                                                    <Box className="flex justify-between bg-[#F8F4F0] p-[20px_16px] rounded-[8px] border-l-4 border-[#82C9D7]">
                                                                         <Typography variant="subtitle1" fontWeight="bold" fontSize="14px" className='text-[#696868]' >
-                                                                        Paid Bills
+                                                                            Due Soon
                                                                         </Typography>
 
                                                                         <Typography variant="" fontWeight="700" fontSize="14px" className='text-black' >
-                                                                        $190.00
+                                                                           $59.98
                                                                         </Typography>
                                                                    </Box>
                                                             </Box>
